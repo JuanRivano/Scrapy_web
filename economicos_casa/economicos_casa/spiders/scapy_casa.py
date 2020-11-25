@@ -3,7 +3,7 @@ import scrapy
 #resumen=response.xpath('//div[@class="col2 span6"]/a/h3/text()').getall()
 #precio=response.xpath('//li[@class="ecn_precio"]/text()').getall()
 #btn siguiente y ultimo ('response.xpath("//div[@class='cont_right_ecn_pag']/a/@href").getall())
-#npagina=response.xpath('//span[@class="pag_resul_bus_0 pag_resul_bus"]/strong/text()').getall()
+#npagina=response.xpath ('//span[@class="pag_resul_bus_0 pag_resul_bus"]/strong/text()').getall()
 
 class scrapy_casa(scrapy.Spider):
     name='casa'
